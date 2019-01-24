@@ -35,6 +35,7 @@ Min. message size = `1B`
 `1B Request Type = 32`  
 `CONNECTION DROP ON OBS. SIDE`
 
+------
 <br/>
 
 ### Request: Claim Append
@@ -51,8 +52,9 @@ Min. message size = `1B`
 { Member N }
 ```
 `CONNECTION DROP ON OBS. SIDE`
-<br/>
 
+------
+<br/>
 
 ### Request: Claim Is Present
 ```
@@ -66,6 +68,7 @@ Min. message size = `1B`
 8B Block number in which Claim is present, or 0 if no such block.
 ```
 
+------
 <br/>
 
 ### Request: TSL Append
@@ -83,6 +86,7 @@ Min. message size = `1B`
 ```
 `CONNECTION DROP ON OBS. SIDE`
 
+------
 <br/>
 
 ### Request: TSL Is Present
@@ -98,6 +102,7 @@ Min. message size = `1B`
 ```
 `CONNECTION DROP ON OBS. SIDE`
 
+------
 <br/>
 
 ### Request: TSL GET
