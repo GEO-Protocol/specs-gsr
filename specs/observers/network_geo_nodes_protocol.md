@@ -35,6 +35,8 @@ Min. message size = `1B`
 `1B Request Type = 32`  
 `CONNECTION DROP ON OBS. SIDE`
 
+<br/>
+
 ### Request: Claim Append
 ```
 1B  Request Type = 128
