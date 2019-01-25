@@ -13,6 +13,7 @@ In GEO Network users are able to vote for any of service providers. It could be 
 5) After the update, all delegated tokens return back to ETH address of that user, that delegated them to the service provider(s).
 
 **Why should users delegate their tokens?**
+
 Every service provider has to raise their interest in a particular way. For example, a Delegator could be an application the users of which receive special services from a service provider, and this motivates the application to delegate its vote to this service provider. Or, a Delegator has an altruistic motivation, so he/she evaluates the quality of the services and then delegates his/her tokens to the best service provider. Also, by analogy with other rating marketplaces based on decentralized technologies, Service providers can give away a part of their profits. Profit is a kind of user feedback about their satisfaction with the quality of the provider’s services.
 
 **The user can take the following actions:**
