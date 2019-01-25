@@ -2,7 +2,7 @@
 # Index
 1. [Observers](https://github.com/GEO-Protocol/specs-gsr/tree/master/specs/observers)
 1. [GSR (GEO Services Registry)](https://github.com/GEO-Protocol/specs-gsr/blob/master/specs/gsr.md)
-1. [GNS (GEO Names Service)](https://github.com/GEO-Protocol/specs-gsr/blob/master/specs/gvs.md)
+1. [GVS (GEO Voting Service)](https://github.com/GEO-Protocol/specs-gsr/blob/master/specs/gvs.md)
 
 #### Why we don't use GitHub Wiki?
 GitHub doesn't support pull requests for the wiki repositories.    
