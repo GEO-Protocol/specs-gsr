@@ -23,7 +23,11 @@ Current architecture of the `Observer <-> GEO Node` communication assumes as les
 
 ## Messages Structure
 Each message must pe prefixed by size header and protocol version:  
-`4B Message Size`, `1B Protocol Ver = 0`, `[NB] Payload`.  
+`4B Message Size`, `1B Protocol Ver = 0`, `[NB] Payload`. 
+
+**Note:**  
+Field `Message Size` must not include itself.  
+For example if payload size == 10, then `Message Size` must be equal 10.
 
 Max. message size = `32 Mb` = `33554432 B`  
 Min. message size = `1B`
