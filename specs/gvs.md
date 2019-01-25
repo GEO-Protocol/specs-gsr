@@ -7,7 +7,7 @@ In GEO Network users are able to vote for any of service providers. It could be 
 1) User deposits tokens on GVS
 2) The user chooses the list of the service providers to vote for. Then, user is delegating some of his tokens to the service provider(s). Also, if the user chooses more than 1 candidate to vote for, he is setting up the percentage of tokens he wants to use for voting for the particular candidate.
 
-   _Thereby, if the user wants to vote for provider A, provider B, and provider C, he will have to determine the percentage of the total amount that will go to a particular candidate._
+   _Thereby, if the user wants to vote for 3 different provider, he will have to determine the percentage of the total amount that will go to each candidate._
 
 3) Afterward, the system records that “...user A delegates n amount of tokens to the provider B...” which means that provider B received n amount of votes from user A.
    
