@@ -14,7 +14,7 @@ _All tables, except the Observers table, function as follows:_ the token quantit
 2) Participant's IP address. 
 3) Type of the service it provides
 4) Ethereum address. 
-  _It is required because users will need to delegate their staked tokens in order to vote for a particular candidate ([check GVS description](https://github.com/GEO-Protocol/specs-gsr/blob/master/specs/gns.md)
+  _It is required because users will need to delegate their staked tokens in order to vote for a particular candidate ([check GVS description])(https://github.com/GEO-Protocol/specs-gsr/blob/master/specs/gns.md)
 5) Observer’s public keys. 
   _In case if the participant is playing the role of observer_
 
