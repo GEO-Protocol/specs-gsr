@@ -6,6 +6,7 @@ Each service in GEO Network should be registered and recorded. Otherwise, there 
 **How does it work?**
 
 _GSR participants interact as follows_: service providers who want to get into the rating submit their names to the table. At the same time, they explain to the GEO token holders why the latter should delegate their vote to them. The Delegators, in turn, decide who they think are the best service providers and delegate their tokens to those.	
+
 _All tables, except the Observers table, function as follows:_ the token quantity that is delegated to every participant makes up his/her rating in the current table. Based on this rating, participants can determine a good service provider and apply for their services.
 
 **In GSR following information is stored**:
