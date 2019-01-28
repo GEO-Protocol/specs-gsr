@@ -139,13 +139,13 @@ Min. message size = `1B`
 ```
 1B Request Type = 192
 2B Transactions IDs count
-{ TxID1
-  16B TxID
-  8B  Final Block Number
+{ 24B TxID1
+   8B Final Block Number
+   16B TxUUID
 }
-{ TxID2 }
+{ 24B TxID2 }
   ...
-{ TxIDn }
+{ 24B TxIDn }
 ```
 
 ### Response: TransactionsStates
