@@ -46,15 +46,16 @@ Min. message size = `1B`
 
 ### Request: Claim Append
 ```
-1B  Request Type = 128
-16B TxID, 
-2B  Members Count  
+ 1B Request Type = 128
+24B TxID, 
+ 2B Members Count  
 
 { Member 1
-    2B   Tx Member ID
+      2B Tx Member ID
     16Kb Member PubKey 
 }
-{ Member ... }
+{ Member 2 }
+...
 { Member N }
 ```
 `CONNECTION DROP ON OBS. SIDE`
@@ -64,8 +65,8 @@ Min. message size = `1B`
 
 ### Request: Claim Is Present
 ```
-1B Request Type = 130
-16B TxID
+ 1B Request Type = 130
+24B TxID
 ```
 
 ### Response: Claim Is Present
@@ -79,15 +80,16 @@ Min. message size = `1B`
 
 ### Request: TSL Append
 ```
-1B  Request Type = 64
-16B TxID, 
-2B  Members Count  
+ 1B Request Type = 64
+24B TxID, 
+ 2B Members Count  
 
 { Member 1
-    2B   Tx Member ID
+     2B Tx Member ID
     8Kb Member Signature 
 }
-{ Member ... }
+{ Member 2 }
+...
 { Member N }
 ```
 `CONNECTION DROP ON OBS. SIDE`
@@ -97,8 +99,8 @@ Min. message size = `1B`
 
 ### Request: TSL Is Present
 ```
-1B Request Type = 66
-16B TxID
+ 1B Request Type = 66
+24B TxID
 ```
 
 ### Response: TSL Is Present
@@ -113,8 +115,8 @@ Min. message size = `1B`
 
 ### Request: TSL GET
 ```
-1B Request Type = 68
-16B TxID
+ 1B Request Type = 68
+24B TxID
 ```
 
 ### Response: TSL Get
@@ -123,10 +125,11 @@ Min. message size = `1B`
 { TSL, only present if "IsPresent" = True 
     2B  Members Count
     { Member 1
-        2B  Tx Member ID
+         2B  Tx Member ID
         8Kb Member Signature 
     }
-    { Member ... }
+    { Member 2 }
+    ...
     { Member N }
 }
 ```
