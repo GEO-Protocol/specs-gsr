@@ -131,3 +131,35 @@ Min. message size = `1B`
 }
 ```
 `CONNECTION DROP ON OBS. SIDE`
+
+-------
+<br/>
+
+### Request: TransactionsStates
+```
+1B Request Type = 192
+2B Transactions IDs count
+{ TxID1
+  16B TxID
+  8B  Final Block Number
+}
+{ TxID2 }
+  ...
+{ TxIDn }
+```
+
+### Response: TransactionsStates
+```
+2B States count
+{ State 1 
+  1B State: 
+  0 - No info;
+  1 - Claim in pool;
+  2 - Claim in chain;
+  3 - TSL in chain;
+}
+{ State 2 }
+...
+{ State n }
+```
+`CONNECTION DROP ON OBS. SIDE`
