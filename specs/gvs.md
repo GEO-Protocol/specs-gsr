@@ -1,7 +1,8 @@
 # Overview of GEO Voting Service (GVS)
 
-GEO Voting Service or GVS is the Ethereum smart-contract which stores the information about all users who staked tokens, amount of tokens they staked and service providers which user voted for. 
-In GEO Network users are able to vote for any of service providers. It could be a provider, observer, state keeper or any other service role. To participate in voting, a user should stake some of his tokens and provide the system with the ETH address where tokens are staked. Information about both, address and amount of tokens user staked is recorded in GVS. 
+GEO Voting Service or GVS is the Ethereum smart-contract which stores the information about all token holder who delegate tokens, amount of tokens they delegate and service providers they voted for. Moreover, smart-contract also keep delegated tokens, so token holders need to deposit tokens on GVS to be able to vote.					
+In GEO Network the delegator is able to vote for any of service providers. It could be a provider, observer, state keeper or any other service role.
+
 
 **Voting goes as follows:**
 1) User deposits tokens on GVS
