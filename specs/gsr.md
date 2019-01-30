@@ -18,7 +18,7 @@ The token quantity that is delegated to every service provider makes up his/her 
 2) Participant's IP address. 
 3) Type of the service it provides
 4) Ethereum address. 
-_It is very important because token holders will delegate tokens to a particular ETH address (check file GVS.md (link))[(check GVS description)](https://github.com/GEO-Protocol/specs-gsr/blob/master/specs/gvs.md)_
+_It is very important because token holders will delegate tokens to a particular ETH address)[(check GVS description)](https://github.com/GEO-Protocol/specs-gsr/blob/master/specs/gvs.md)_
 5) Any additional information.
   
 
