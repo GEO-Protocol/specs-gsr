@@ -1,6 +1,8 @@
 # Overview of GEO Voting Service (GVS)
 
-GEO Voting Service or GVS is the Ethereum smart-contract which stores the information about all token holder who delegate tokens, amount of tokens they delegate and service providers they voted for. Moreover, smart-contract also keep delegated tokens, so token holders need to deposit tokens on GVS to be able to vote.					
+
+GEO Voting Service or GVS is the Ethereum smart-contract which stores the information about all token holder who delegates  tokens, amount of tokens they delegate and service providers they voted for. Moreover, smart-contract also keep delegated tokens, so token holders need to deposit tokens on GVS to be able to vote.					
+
 In GEO Network the delegator is able to vote for any of service providers. It could be a provider, observer, state keeper or any other service role.
 
 
@@ -17,10 +19,6 @@ In GEO Network the delegator is able to vote for any of service providers. It co
 4) Every week, at the end of 7th day, the voting result is being concluded and the lists of different service roles are updating. After the update, each service provider is arranged in the list considering the number of votes it received from token holders.
 
 The percentage that delegator set up for previous week will stay unchanged unless token holder deposit, withdraw or rearrange tokens he staked on GVS.
-
-**Why should token holders delegate their tokens?**
-
-Every service provider has to raise their interest in a particular way. For example, a Delegator could be an application the users of which receive special services from a service provider, and this motivates the application to delegate its vote to this service provider. Or, a Delegator has an altruistic motivation, so he/she evaluates the quality of the services and then delegates his/her tokens to the best service provider. Also, by analogy with other rating marketplaces based on decentralized technologies, Service providers can give away a part of their profits. Profit is a kind of token holder feedback about their satisfaction with the quality of the provider’s services.
 
 **The token holder can take the following actions:**
 - Deposit tokens and participate in the voting. If deposit = 0 then the token holder can not vote.
